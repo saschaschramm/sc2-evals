@@ -1,0 +1,3 @@
+openai==1.23.6
+pysc2==4.0.0
+protobuf==3.19.6
