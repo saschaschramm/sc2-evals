@@ -59,7 +59,7 @@ Gas by constructing additional SCVs and an additional Command Center.
 ### Goal
 Maximize the reward."""
 
-SYSTEM = SYSTEM_HARVEST
+SYSTEM = SYSTEM_MESSAGE_LONG
 
 USER = """## Last observation
 {observation}
@@ -68,7 +68,9 @@ USER = """## Last observation
 ## Last reward
 {reward}
 ## Instruction
-Perform the next action"""
+Choose one of the available actions and execute it."""
+
+#Perform the next action
 
 class CollectMineralsAndGas(Game):
 

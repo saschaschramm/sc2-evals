@@ -24,7 +24,9 @@ USER = """## Last observation
 ## Last reward
 {reward}
 ## Instruction
-Perform the next action"""
+Choose one of the available actions and execute it."""
+
+#Perform the next action"""
 
 
 class DefeatRoaches(Game):

@@ -1,3 +1,8 @@
+.DS_Store
+.vscode/
 __pycache__/
 data/
+playground/
 sc2_evals.egg-info/
+vision/
+copy_dir.py
